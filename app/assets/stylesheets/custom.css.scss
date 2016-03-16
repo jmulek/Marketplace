@@ -1,28 +1,34 @@
 @import "bootstrap";
 
 body {
-	background-color: #F5F5F1;
+	background-color: #f4cc70;
 	color: #333333;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar-default {
-	background-color: #EFEFEB;
+	background-color: #d9b44a;
 }
 
 .navbar-default .navbar-brand {
 	font-family: guardian-egyptt, georgia, serif;
 	font-weight: 400;
-	color: #d5641c;
+	color: #de7a22;
 	font-size: 30px;
 	
+}
+.navbar-default .navbar-brand:hover {
+	color: #3f681c;
 }
 
 .navbar-default .navbar-nav li > a {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: bold;
-	color: #019285;
+	color: #6ab187;
+}
+.navbar-default .navbar-nav li > a:hover {
+	color: #de7a22;
 }
 
 .center {
@@ -47,6 +53,9 @@ body {
 		font-size: 15px;
 		margin: 0;
 	}
+}
+.btn-link {
+	color: #de7a22;
 }
 
 
