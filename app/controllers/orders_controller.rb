@@ -33,7 +33,7 @@ class OrdersController < ApplicationController
 		@order.seller_id = @seller.id
 		
 		
-    Stripe.api_key = ENV["STRIPE_API_KEY"]
+    Stripe.api_key = stripe_secret_key
     token = params[:stripeToken]
 		
 		begin
